@@ -1,5 +1,9 @@
+import Text from './components/text'
+
 export default function App() {
   return (
-    <div className="text-red-500">Hello world!</div>
+    <Text variant="body-sm-bold" className="text-pink-base">
+      Hello world!
+    </Text>
   )
 }
