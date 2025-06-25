@@ -7,6 +7,7 @@ import XIcon from './assets/icons/x.svg?react'
 import Badge from './components/badge'
 import Button from './components/button'
 import ButtonIcon from './components/button-icon'
+import Card from './components/card'
 
 import Icon from './components/icon'
 import InputCheckbox from './components/input-checkbox'
@@ -55,6 +56,10 @@ export default function App() {
 
       <div>
         <InputCheckbox />
+      </div>
+
+      <div>
+        <Card size="md">Hi there</Card>
       </div>
     </div>
   )
